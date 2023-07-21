@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 40px;
+    background-image: url("img.jpg");
+    /* Replace "path/to/your/image.jpg" with the actual image path */
+    background-size: cover;
+    /* Adjust the image size to cover the entire background */
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    height: 21rem;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    background: transparent;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding-top: 20px;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 30px;
+    justify-content: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+submit-btn.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    justify-content: center;
+}

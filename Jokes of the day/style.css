@@ -1,0 +1,40 @@
+html, body {
+  background-color: #ebeced;
+  height: 100%;
+  width: 100%;
+}
+body{
+  margin:0px;
+}
+.container{
+  padding-left: 20px;
+  background-color:#00e1ff;
+  font-size:40px;
+  color:#ff0000;
+  border:5px double;
+  padding:8px;
+  margin:10px;
+}
+
+.cn{
+  padding-left: 20px;
+  background-color:#00e1ff;
+  font-size:40px;
+  color:#ff0000;
+  border:5px dashed;
+  padding:8px;
+  margin:10px;
+}
+ha{
+  font-size:50px;
+  color:#400ec8;
+  padding-left:28rem;
+  font-weight: bold;
+}
+  
+hah{
+  font-size:50px;
+  color:#400ec8;
+  padding-left:28rem;
+  font-weight: bold; 
+}

@@ -1,0 +1,36 @@
+<head>
+  <title>Online Conference Registration</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <h1>Online Conference Registration</h1>
+
+  <form id="registrationForm">
+
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+    </div>
+    <div>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" required>
+    </div>
+    <div>
+      <label for="workshop">Workshop Preferences:</label>
+      <input type="text" id="workshop">
+    </div>
+    <div class="btn">
+      <button type="submit" id="submitBtn" disabled>Submit</button>
+      <!-- The "disabled" attribute on the "Submit" button prevents users from clicking it when the form is not valid or when it has already been submitted. -->
+    </div>
+  </form>
+
+  <script src="script.js"></script>
+
+</body>

@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <style>
+        #cal {
+            height: 370px;
+            width: 370px;
+            box-shadow: 0px 0px 7px 1px black;
+            margin: 100px auto;
+            border-radius: 5px;
+            padding: 25px;
+            box-sizing: border-box;
+            background: white;
+        }
+
+        cal:hover {
+            height: 500px;
+            width: 500px;
+            box-shadow: 0px 0px 7px 1px black;
+            margin: 100px auto;
+            border-radius: 5px;
+            padding: 25px;
+            box-sizing: border-box;
+            background: white;
+        }
+
+        #txt {
+            height: 50px;
+            width: 75%;
+            background: #e4e4e4;
+            border-radius: 5px;
+            margin-bottom: 4px;
+            border: none;
+            box-shadow: 0px 0px 3px 2px black inset;
+            font-size: 24px;
+            font-weight: bold;
+            padding-left: 20px;
+        }
+
+        .btn {
+            height: 50px;
+            width: 50px;
+            background: black;
+            border-radius: 5px;
+            border: none;
+            font-size: 22px;
+            color: white;
+            margin: 4px;
+            box-shadow: 0px 0px 3px black;
+        }
+
+        #madeBy {
+            text-align: center;
+            font-size: 14px;
+            font-weight: lighter;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div id="cal">
+            <input id="txt" type="text" /><br />
+            <input type="button" class="btn" value="1" onclick="appendToDisplay('1')" />
+            <input type="button" class="btn" value="2" onclick="appendToDisplay('2')" />
+            <input type="button" class="btn" value="3" onclick="appendToDisplay('3')" />
+            <input type="button" class="btn" onclick="appendToDisplay('+')" value="+" />
+            <br />
+            <input type="button" class="btn" value="4" onclick="appendToDisplay('4')" />
+            <input type="button" class="btn" value="5" onclick="appendToDisplay('5')" />
+            <input type="button" class="btn" value="6" onclick="appendToDisplay('6')" />
+            <input type="button" class="btn" onclick="appendToDisplay('-')" value="-" />
+            <br />
+            <input type="button" class="btn" value="7" onclick="appendToDisplay('7')" />
+            <input type="button" class="btn" value="8" onclick="appendToDisplay('8')" />
+            <input type="button" class="btn" value="9" onclick="appendToDisplay('9')" />
+            <input type="button" class="btn" onclick="appendToDisplay('*')" value="*" />
+            <br />
+            <input type="button" class="btn" value="0" onclick="appendToDisplay('0')" />
+            <input type="button" class="btn" value="C" onclick="clearDisplay()" />
+            <input type="button" class="btn" onclick="appendToDisplay('/')" value="/" />
+            <input type="button" class="btn" onclick="calculateResult()" value="=" />
+
+            <div id="madeBy">Made by Abhay</div>
+        </div>
+    </center>
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+body {
+  background-color: #ebeced;
+  text-align:center ;
+  padding-top:70px;
+  font-size:70px;
+  color:#ff0000;
+  background-image: linear-gradient(to left, grey , skyblue,grey);
+  transition-property: width, height;
+  transition-duration: 2s;
+}
+a:hover{
+  font-size:40px
+}
